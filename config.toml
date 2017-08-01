@@ -1,0 +1,50 @@
+baseurl = "https://hiromisuzuki.github.io/"
+title = "hiromisuzuki.github.io"
+theme = "ghostwriter"
+languageCode = "jp-ja"
+copyright = "hiromisuzuki"
+canonifyurls = true
+
+[Author]
+    name = "Hiromi Suzuki"
+    profile = "http://hsuzuki.hatenablog.com/"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "headline"
+    description = "description"
+    github = "https://github.com/hiromisuzuki"
+    twitter = "https://twitter.com/one_way_baby"
+    email = "h.suzuki@outlook.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Memo"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
