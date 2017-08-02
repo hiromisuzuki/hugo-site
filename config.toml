@@ -14,8 +14,8 @@ canonifyurls = true
 
 [Params]
     intro = true
-    headline = "孫悟空"
-    description = "孫悟天"
+    headline = "メンチカツ"
+    description = "牡蠣フライが好きです"
     github = "https://github.com/hiromisuzuki"
     twitter = "https://twitter.com/one_way_baby"
     email = "h.suzuki@outlook.com"
